@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículo Digital | Lúcia Egito</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1f3a5f;
+      --secondary: #3a6ea5;
+      --bg: #f4f6f8;
+      --text: #2c2c2c;
+      --card: #ffffff;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 30px;
+      padding: 0 20px;
+    }
+
+    aside {
+      background: var(--primary);
+      color: #fff;
+      padding: 30px;
+      border-radius: 14px;
+      text-align: center;
+    }
+
+    .profile-photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffffff55;
+      margin-bottom: 18px;
+    }
+
+    aside h1 {
+      font-size: 28px;
+      margin-bottom: 6px;
+    }
+
+    aside h2 {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      opacity: 0.9;
+    }
+
+    aside p, aside li {
+      font-size: 14px;
+      margin-bottom: 8px;
+      text-align: left;
+    }
+
+    aside ul { list-style: none; margin-top: 10px; padding-left: 0; }
+
+    main {
+      background: var(--card);
+      padding: 35px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    section { margin-bottom: 35px; }
+
+    section h3 {
+      font-size: 20px;
+      color: var(--primary);
+      border-bottom: 2px solid var(--secondary);
+      padding-bottom: 6px;
+      margin-bottom: 18px;
+    }
+
+    .item {
+      margin-bottom: 18px;
+    }
+
+    .item h4 {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .item span {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .item ul {
+      margin-top: 8px;
+      padding-left: 18px;
+    }
+
+    .item ul li {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    footer {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 13px;
+      color: #666;
+    }
+
+    @media(max-width: 900px) {
+      .container { grid-template-columns: 1fr; }
+      aside p, aside li { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <aside>
+      <!-- Substitua o src pela foto real da pessoa -->
+      <img src="img/imagem-Lucia.jpeg" alt="Foto de Lúcia Egito" class="profile-photo" />
+
+      <h1>Lúcia Egito</h1>
+      <h2>Contadora Especialista em Educação Financeira</h2>
+
+      <p><strong>📍 Endereço:</strong><br>Jaboatão dos Guararapes - PE</p>
+      <p><strong>📧 E-mail:</strong><br>lucegito@hotmail.com</p>
+      <p><strong>📱 WhatsApp:</strong><br>(81) 9 7905-9569</p>
+      <p><strong>🔗 LinkedIn:</strong><br>linkedin.com/in/lúcia-egito-4277821aa</p>
+
+      <h3 style="margin-top:25px; color:#fff; border:none">Competências</h3>
+      <ul>
+        <li>Análises de contas patrimoniais</li>
+        <li>Análises contábil e fiscal</li>
+      </ul>
+    </aside>
+
+    <main>
+      <section>
+        <h3>Perfil Profissional</h3>
+        <p>Profissional com mais de 23 anos de experiência nas áreas Administrativa, Contábil, Fiscal e Financeira. Forte atuação em coordenação de departamentos, análise contábil, fechamento de balanços, implantação de sistemas e desenvolvimento de pessoas. Perfil estratégico, analítico e orientado a resultados.</p>
+      </section>
+
+      <section>
+        <h3>Experiência Profissional</h3>
+
+        <div class="item">
+          <h4>Analista Contábil Sênior – AJS Capital Tax Ltda.</h4>
+          <span>Fevereiro/2025 – Atual</span>
+          <ul>
+            <li>Análises contábeis e fechamento trimestral</li>
+            <li>Distribuição de lucros e declaração MEP</li>
+            <li>SPED ECD / ECF</li>
+            <li>Controle de imobilizado e investimentos</li>
+            <li>BPO financeiro e importação fiscal</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h4>Analista Contábil – Qually Tranding Importação</h4>
+          <span>Outubro/2024 – Fevereiro/2025</span>
+          <ul>
+            <li>Análises de ICMS, IPI, PIS e COFINS</li>
+            <li>Análise de estoque, CMV e fretes</li>
+            <li>Fechamento de balanço</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h4>Analista Contábil/Fiscal – Intertransmar do Nordeste Ltda.</h4>
+          <span>Fevereiro/2006 – Abril/2024</span>
+          <ul>
+            <li>Coordenação contábil e fiscal de grupo empresarial</li>
+            <li>Planejamento tributário e recuperação de créditos</li>
+            <li>Atuação junto a órgãos fiscalizadores</li>
+            <li>Processos ANVISA e Vigilância Sanitária</li>
+            <li>Faturamento para multinacional</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h3>Formação Acadêmica</h3>
+        <div class="item">
+          <h4>Bacharel em Ciências Contábeis</h4>
+          <span>Universidade Maurício de Nassau – Recife/PE</span>
+        </div>
+        <div class="item">
+          <h4>Técnico em Contabilidade – CRC PE 020270/O-3</h4>
+          <span>Universidade Católica de Pernambuco</span>
+        </div>
+      </section>
+
+      <section>
+        <h3>Cursos e Desenvolvimento</h3>
+        <ul>
+          <li>Educador Financeiro – FINPRO</li>
+          <li>Reforma Tributária e Recuperação de Crédito</li>
+          <li>Inteligência Emocional, PNL e Coaching</li>
+          <li>Marketing Digital e Processos Tecnológicos</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Idiomas</h3>
+        <ul>
+          <li>Espanhol – Intermediário (uso profissional)</li>
+          <li>Inglês – Em curso (Fisk)</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    © 2025 • Currículo Digital Profissional
+  </footer>
+
+</body>
+</html>
